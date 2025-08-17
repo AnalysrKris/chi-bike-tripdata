@@ -51,17 +51,22 @@ Chicago's bike share system needed insights into user behavior differences to op
 
 ## Files Structure
 ```
-├── sql/
-│   └── tripdata_script.sql          # Complete analysis with methodology
-├── docs/
-│   └── executive_summary.pdf        # Business-focused presentation
+└── sql/
+    └── tripdata_script.sql          # Complete analysis with methodology
+└──methodology/
+    └──docs/
+        └── executive_summary.md        # Full executive summary
+        └──Divvy-bike-trip-data-analysis.pdf   # Easily digestible professional presentation
 └── visualizations/
-    └── dashboard_screenshots/       # Supporting charts and dashboard
+    └── bike_preference.png                # Supporting charts and dashboard
+    └──casual_v_member_roundtrip.png
+    └──peak_times.png       
 ```
 
 ## Data Source
 This analysis uses publicly available Chicago Divvy bike share data from July 2025.
-Original dataset available at: [Divvy Data Website](https://divvybikes.com/data)
+Original dataset available at: [Divvy Data Website](https://divvy-tripdata.s3.amazonaws.com/index.html) as part of the
+Google Data Analyst Professional Certificate
 
 Due to licensing restrictions, the raw dataset is not included in this repository.
 
